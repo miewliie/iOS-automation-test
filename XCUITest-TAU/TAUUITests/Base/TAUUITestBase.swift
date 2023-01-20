@@ -14,6 +14,7 @@ class TAUUITestBase: XCTestCase {
         app.launch()
         // Initialize configuration
 
+//        apikey for applittool can generate at their website
         config.apiKey = "oN9iSFJnHtjPDjeVaxe30g40k75hR2Iov2oxdgG1Yik110";
         if #available(iOS 13, *) {
             config.statusBarExists = true
