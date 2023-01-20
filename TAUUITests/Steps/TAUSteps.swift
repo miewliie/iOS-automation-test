@@ -12,6 +12,7 @@ extension TAUUITestBase {
         XCTContext.runActivity(named: "When I enter city London") { _ in
             TAUScreen.cityTextField.element.tap()
             TAUScreen.cityTextField.element.typeText(city)
+            TAUScreen.enterCityLable.element.tap()
         }
     }
     
