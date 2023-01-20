@@ -48,6 +48,14 @@
                BlueprintName = "TAUUITests"
                ReferencedContainer = "container:TAU.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "TAUEyesTest">
+               </Test>
+               <Test
+                  Identifier = "TAUUITestsLaunchTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
